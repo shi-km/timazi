@@ -4,14 +4,20 @@
 
 }
 /* navigation */
+h5{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    padding-left: 2%;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
 
     nav{
         display: flex;
         background-color: yellow;
         justify-content: space-between;
         align-content: center;
-        padding:0%;
-        /* position: fixed; */
         width: 100%;
         overflow: hidden;
         top:0;
@@ -20,7 +26,7 @@
     }
     nav img{
         height: 40px;
-        padding-top: 10%;
+        padding-top:10%;
         padding-left: 5%;
     }
     .nav-links ul li{
@@ -52,10 +58,10 @@
 }
 .content h1{
     color: white;
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 600;
     text-align: center;
-    padding-top: 12%;
+    padding-top: 11%;
     padding-right: 5%;
 
     
@@ -67,6 +73,7 @@
     display: block;
     position: inherit;
     color: white;
+    font-weight: 600;
        
 }
  .about-details h1{
@@ -108,7 +115,7 @@ font-size: 50px;
     column-count:3;
    
  }
- img{
+ .row img{
     width:60vh;
     
  }
@@ -197,4 +204,4 @@ height: 12vh;
     color: yellow;
  }
  /* icons styling */
- 
+

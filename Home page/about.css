@@ -97,58 +97,32 @@
  }
 
  /* programs */
-
- .prog-title h1{
-    text-align: center;
-    font-size: 50px; 
-    margin-bottom: 2%;
-    margin-top: 2%;
- 
+ h1{
+text-align: center;
+margin-top: 5%;
  }
-.prog-row{
-display: flex;
-justify-content: center;
-padding-bottom:10%;
- }
-.prog-row img{
-    height: auto;
-    width:60vh;
- }
- .prog-col{
-    background-color: #f3f3f3;
+ .row{
+    display: flex;
+    padding-left: 1.5%;
    
-  }
-  .prog-col1{
-padding-right:3%;
-background-color: #f3f3f3;
-
-}
-.prog-col2{
-    padding-right:3%;
-}
-  .prog-row h3{
-    text-align: center;
-    padding-top: 6%;
-  }
-  .prog-row p{
-    text-align: center;
-    /* background-color: #f3f3f3; */
-    padding-top: 10%;
-    font: size 20px;
-    height: 40vh;
-    width:60vh;
-    line-height: 25px;
+ }
+ img{
+    height: 50vh;
+    width: auto;
     
  }
+ .colum{
+    background-color: #f3f3f3;
+    width: 60vh;
+ }
+ 
  /* footer */
-
- .footer{
+.footer{
     background-color: black;
     height: 80vh;
     overflow: hidden;
  
 }
-
 .footer-row{
     display: flex;
 }

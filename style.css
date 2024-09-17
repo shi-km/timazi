@@ -58,12 +58,11 @@ h5{
     padding-top: 18%;   
 }
 .Text-box p{
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     color:white;
-    font-weight: 600;
-    padding-top: 2px;
-    line-height: 25px;
+    font-weight: 300;
+    line-height: 20px;
        
 }
 /* our programs section */
@@ -214,17 +213,21 @@ nav img{
     font-weight: 600;
 
 }
+.nav-links ul li a:hover{
+background:whitesmoke;
+}
 
 /* contact info */
-.contact-row{
+
+.contact-row {
 display: flex;
 }
 /* bible reading program section */
 
-.bible-row img{
+.bible-row  {
 height: 70vh;
 }
-.bible-row{
+.bible-row {
     margin-bottom: 10%;
 }
 .bible-row p{
@@ -238,6 +241,22 @@ height: 70vh;
     font-size: 45px;
     color: #465191;
 }
+
+/* testimonial section */
+
+.test{
+    background-color: #f3f3f3;
+    height: 80vh;
+    width: auto;
+    margin-bottom: 10%;
+}
+.test p{
+    color: black;
+    padding-top: 6%;
+    line-height: 30px;
+}
+/* latest resources section */
+
 /* footer section */
 
 .footer{
@@ -246,7 +265,6 @@ height: 70vh;
     overflow: hidden;
  
 }
-
 .footer-row{
     display: flex;
 }
@@ -257,15 +275,11 @@ height: 70vh;
    font-size: 17px;
    list-style: none;
  }
- .list-1{
-    padding-left:20%;
- }
- .list-2{
-    padding-left: 20%;
-   
+ .list{
+    padding-left:10%;
  }
  .footer-col ul{
-    width: 60vh; 
+    width: 58vh; 
  }
  .footer-col img{
     height: 40px;
@@ -287,6 +301,7 @@ height: 70vh;
         font-size:15px;
         color:white;
      }
+
      .copyright a{
         color: yellow;
      }

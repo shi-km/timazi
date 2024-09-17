@@ -219,7 +219,25 @@ nav img{
 .contact-row{
 display: flex;
 }
+/* bible reading program section */
 
+.bible-row img{
+height: 70vh;
+}
+.bible-row{
+    margin-bottom: 10%;
+}
+.bible-row p{
+    color: black;
+    /* padding-right: 2px; */
+    font-size: 18px;
+    text-align: left;
+    line-height: 30px;
+}
+.bible-row h1{
+    font-size: 45px;
+    color: #465191;
+}
 /* footer section */
 
 .footer{

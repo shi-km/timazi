@@ -1,11 +1,15 @@
-h1 {
-    color: red;
-}
+/* h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding-top:12%;
+} */
 p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: xx-large;
+
+    font-size:20px;
     padding-left: 0%;
-    color: blue;
+    text-align: center;
+    color: white;
 }
 /* home page  headings*/
 
@@ -51,11 +55,7 @@ h5{
     font-size: 65px;
     font-weight: 900;
     text-align: center;
-    padding-top: 18%;
-
-
-    
-   
+    padding-top: 18%;   
 }
 .Text-box p{
     font-size: 16px;
@@ -66,25 +66,74 @@ h5{
     line-height: 25px;
        
 }
- .about-details h1{
+/* our programs section */
+
+.prog-title h1{
     text-align: center;
-    font-size: 45px;
-    padding-top: 2%;
-    text-decoration-color: #ffff00;
-    margin-top: 2%    ;
- }
- /* h1{
-    text-align: center;
-    margin-top: 2%;
-    margin-bottom: 5%; 
-    font-size: 50px; 
-     } */
-     .row li{
+    color: black;
+    font-size: 50px;
+    margin-top: 4%;
+    margin-bottom: 3%;
+
+}
+
+     .about-row li{
         list-style: none;
-         padding-top: 5%;
+         padding-top: 2%;
         text-align: center;
         line-height: 30px;
+        color: black;
      }
+     .about-row p{
+        color: black;
+        font-size: 15px;
+     }
+
+     .about-details img{
+        height: 60vh;
+        width: auto;
+        padding-left: 2%;
+     }
+     .about-details{
+        display: flex;
+     }
+     .about-details p{
+     color: black;
+     font-size: 18px;
+     line-height: 25px;
+     text-align: left;
+     padding-left: 2%;
+     }
+     .about-row{
+        column-count: 3;
+        padding-bottom: 10%;
+       
+     }
+     .colum{
+        background-color: #f3f3f3;
+        height: 100vh;
+     }
+     .about-row img{
+        height: 45vh;
+        width: auto;
+     }
+.about-info h1{
+    color:white;
+    text-align: center;
+    padding-top: 6%;
+    font-size: 60px;
+}
+.about-info p{
+   text-align: center; 
+   font-size: 17px;
+
+}
+.about-title h1{
+    text-align: center;
+    padding-bottom: 3%;
+    font-size: 45px;
+    font-weight: 600;
+}
 
      /* topnav */
      
@@ -92,6 +141,7 @@ h5{
     background-color: black;
     color: white;
      }
+
 /* home page nav */
 
 @font-face {
@@ -99,6 +149,7 @@ h5{
     src: url("/Tw\ Cen\ MT.ttf");
 }
 
+/* header section */
 * {
     padding: 0;
     margin: 0;
@@ -113,6 +164,15 @@ overflow: hidden;
 }
 
 .about-header{
+height: 80vh;   
+width:auto; 
+background-image:url(assets/images/Crop\ image\ project.png);
+background-position: center;
+background-size: cover;
+overflow: hidden;
+}
+
+.contact-header{
 height: 80vh;   
 width:auto; 
 background-image:url(assets/images/contact.png);
@@ -154,7 +214,13 @@ nav img{
     font-weight: 600;
 
 }
-/* home footer */
+
+/* contact info */
+.contact-row{
+display: flex;
+}
+
+/* footer section */
 
 .footer{
     background-color: black;

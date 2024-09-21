@@ -1,31 +1,64 @@
-h1 {
-    color: red;
+*{
+    margin: 0%;
+    padding: 0;
 }
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: xx-large;
-    padding-left: 0%;
-    color: blue;
+
+/* header section */
+
+.hero{
+background-size: cover;
+width:calc(100vh - 50vh);
+width: auto;
+
 }
-/* home page  headings*/
 
-
-.Text-box h1{
-    color: white;
-    font-size: 60px;
+.hero h1{
+    color:white;
+    font-size: 70px;
     font-weight: 600;
     text-align: center;
-   padding-top: 16%;
+    padding-top: 28%;
    
    }
    
-   .Text-box p{
-   font-size:18px;
+   .hero p{
+    font-size:26px;
     text-align: center;
     display: block;
     color: white;
        
    }
+   .hero-1 p{
+    font-size: 22px;
+   }
+
+   /* top navigation section */
+.row-k{
+    display: flex; 
+    gap: 80%;
+    background-color: black;
+     color: white;
+}
+    /* nav section */
+    .header{
+        display: flex;
+    }
+    nav ul{
+      display: flex;  
+    
+    }
+    nav li{
+        list-style: none;
+        padding: 2%;
+        
+    }
+
+    nav a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-weight: 900;
+    }
 /* about page headings */
 
 .details p{
@@ -46,135 +79,230 @@ h5{
     font-size: 16px;
     letter-spacing: 2px;
 }
-.content h1{
-    color: white;
-    font-size: 70px;
-    font-weight: 600;
-    text-align: center;
-    padding-top: 11%;
-    padding-right: 5%;
 
-    
-   
-}
-.content p{
-    font-size: 20px;
+/* our programs section */
+
+.prog-title h1{
     text-align: center;
-    display: block;
-    position: inherit;
-    color: white;
-    font-weight: 600;
-       
-}
- .about-details h1{
-    text-align: center;
-    font-size: 45px;
-    padding-top: 2%;
-    text-decoration-color: #ffff00;
-    margin-top: 2%    ;
- }
- h1{
-    text-align: center;
-    margin-top: 2%;
-    margin-bottom: 5%;
+    color: black;
     font-size: 50px;
-     }
-     .row li{
-        list-style: none;
-         padding-top: 5%;
+    margin-top: 4%;
+    margin-bottom: 3%;
+
+}
+
+     .about-row p{
+        color: black;
+        font-size: 20px;
         text-align: center;
         line-height: 30px;
+        padding-top: 30px;
+
+     }
+     .about-row h2{
+        font-size: 20px;
+        text-align: center;
      }
 
-/* home page nav */
+     .about-details img{
+        height: 60vh;
+        width: auto;
+        padding-left: 2%;
+     }
+     .about-details{
+        display: flex;
+      
+     }
+     .about-details p{
+     color: black;
+     font-size: 18px;
+     line-height: 25px;
+     text-align: left;
+     padding-left: 2%;
+     }
+     .about-row{
+        column-count: 3;
+        margin-bottom: 40px;
+        margin: 30px;
+     }
+     .about-colum{
+        background-color: #f3f3f3;
+        height: 100vh;
+        position: relative; 
+     }
+     .about-row button{
+        position: absolute; 
+        translate: -50%  -50%; 
+        bottom: 10%; left: 50%;
+        background-color: #ffff00;
+        width: 120px;
+        height: 40px;
+        
+     }
+     .about-row img{
+        height: 45vh;
+        width: 64vh;
+     }
+.about-info h1{
+    color:white;
+    text-align: center;
+    font-size: 60px;
+}
+.hero-info p{
+   text-align: center; 
+   font-size: px;
 
-@font-face {
-    font-family:george;
-    src: url("/Tw\ Cen\ MT.ttf");
+}
+.about-title h1{
+    text-align: center;
+    padding-bottom: 3%;
+    font-size: 45px;
+    font-weight: 600;
 }
 
-* {
-    padding: 0;
-    margin: 0;
-}
-.header {
-min-height: 100vh;   
-min-width: 100%; 
-background-image:url(/assets/images/backgroung.png);
-background-position: center;
-background-size: cover;
-position: relative;
-}
-nav{
-    display: flex;
-    background-color: yellow;
-    justify-content: space-between;
-    align-content: center;
-    padding:0%;
-    width: 100%;
-    overflow: hidden;
-    top:0;
 
+/* contact info section */
+
+.contact-row {
+    column-count: 2;
+    margin-bottom: 10%;
+    justify-content: center;
+    padding-left:2%;
+    padding-right: 2%;
 }
-nav img{
-    height: 40px;
-    padding-top: 10%;
-    padding-left: 5%;
-}
-.nav-links ul li{
-    display: inline-block;
+ .contact-col{
+  background-color: #f3f3f3;
+    height: 100vh;
+  }
+.contact-col li{
     list-style: none;
-    padding: 2% ;
+    padding-left: 5%;
    
 }
-.nav-links {
-    text-align: left;
-    flex: 1;
-    padding-left: 6%;
+.contact-col ul{
+    padding-top: 10%;
+    line-height: 30px;
 }
-.nav-links ul li a{
-    color: #333333;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 600;
+#name{
+    width: 80vh;
+    height: 20px;
+}
+#email{
+    width: 80vh;
+    height: 20px;
+}
+#no{
+    width: 80vh;
+    height: 20px;
+}
+#message{
+    width: 80vh;
+    height: 50px;
+}
+
+.contact-row h1{
+font-size: 20px;
+background-color:grey;
+padding-bottom: 5%;
+color: #ffff00;
+}
+
+/* bible reading program section */
+.bible-colum img{
+height: 70vh;
+}
+
+.bible-row p{
+    color: black;
+    font-size: 20px;
+    line-height: 35px;
+    padding-top: 1rem;
+}
+.bible-row{
+    display: flex; gap: 70px;
+    margin: 30px;
+}
+.bible-row h1{
+    font-size: 55px;
+    color: #465191;
+}
+
+.bible-row button{
+    background-color: #ffff00; 
+     width:25%; height: 8vh;
+     margin-top: 1rem;
 
 }
-/* home footer */
-
-.footer{
-    background-color: black;
-    height: 80vh;
-    overflow: hidden;
- 
+.test p{
+    color: black;
+    padding-top: 6%;
+    line-height: 30px;
 }
+
+/* testimonial section */
+
+.testimonial p{
+    line-height: 40px;
+    text-align: center;
+    padding: 3rem;
+    font-size: 26px;
+
+}
+.testimonial{
+    background-color: #f3f3f3; 
+     height: 90vh;
+}
+/* latest resources section */
+.latest-row{
+    column-count: 3;
+    margin-bottom: 40px;
+    margin: 30px;
+}
+.latest-row img{
+    height: 45vh;
+    width: 64vh;
+}
+.latest-colum{
+    background-color: #f3f3f3;
+    height: 100vh;
+}
+.latest-row p{
+    text-align: center;
+    /* padding: 1rem; */
+    line-height:30px;
+    font-size: 18px;
+}
+.latest-row h2{
+text-align: center;
+padding-bottom: 3%;
+}
+/* footer section */
 
 .footer-row{
-    display: flex;
-}
+    background-color: black;
+    column-count: 4;
+    height: 100vh;
+    padding: 20px;
 
+}
+.footer-col{
+height: 100%;
+}
 .footer-col ul li{
    color: white;
-   padding: 5%;
    font-size: 17px;
    list-style: none;
  }
- .list-1{
-    padding-left:20%;
- }
- .list-2{
-    padding-left: 20%;
-   
- }
- .footer-col ul{
-    width: 60vh; 
- }
- .footer-col img{
-    height: 40px;
-    width: auto;
-    padding-top:30%;
-    padding-left: 20%;
+ .list{
 
  }
+ .footer-col ul{
+   line-height: 50px;
+ }
+.footer img{
+    height: 50px;
+    
+}
  /* copyright nav */
  
  .copyright {
@@ -185,8 +313,11 @@ nav img{
      }
      .copyright p{
         padding-top: 2%;
-        font-size: 22px;
+        font-size:15px;
+        color:white;
      }
+
      .copyright a{
         color: yellow;
      }
+     

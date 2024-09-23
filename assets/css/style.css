@@ -1,15 +1,58 @@
+@font-face {
+    font-family: 'cen';
+    src: url(/assets/fonts/Tw\ Cen\ MT.ttf);
+}
 *{
-    margin: 0%;
+    margin: 0;
     padding: 0;
+}
+body{
+    font-family: 'cen';
+}
+/* top navigation section */
+.topnav-row{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}
+.fa{
+    padding-left: 20px;
+}
+/* navigation section */
+
+.header{
+    background-color: #ffff00;
+    display: flex;
+}
+.header ul{
+    list-style-type: none;
+    overflow: hidden;
+  
+}
+.header li{
+    float: left;
+   
+}
+.header a{
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    color: black;
+
+}
+.header a:hover{
+    background-color:rgba(0, 0, 0, 0.103);
 }
 
 /* header section */
 
 .hero{
 background-size: cover;
-width:calc(100vh - 50vh);
-width: auto;
-
+background-position: center;
+height: calc(100vh - 96px);
 }
 
 .hero h1{
@@ -17,7 +60,7 @@ width: auto;
     font-size: 70px;
     font-weight: 600;
     text-align: center;
-    padding-top: 28%;
+    padding-top: 10%;
    
    }
    
@@ -26,46 +69,22 @@ width: auto;
     text-align: center;
     display: block;
     color: white;
+    font-family:'cen';
        
    }
    .hero-1 p{
     font-size: 22px;
    }
 
-   /* top navigation section */
-.row-k{
-    display: flex; 
-    gap: 80%;
-    background-color: black;
-     color: white;
-}
     /* nav section */
-    .header{
-        display: flex;
-    }
-    nav ul{
-      display: flex;  
-    
-    }
-    nav li{
-        list-style: none;
-        padding: 2%;
-        
-    }
 
-    nav a{
-        text-decoration: none;
-        color: black;
-        font-size: 20px;
-        font-weight: 900;
-    }
-/* about page headings */
+/* about page hero section*/
 
 .details p{
     display: flex;
     font-size: 16px;
     padding-top:25px;
-    width: 85vh;
+    width: 100%;
     height: auto;
     float: right;
     line-height: 30px;
@@ -79,8 +98,7 @@ h5{
     font-size: 16px;
     letter-spacing: 2px;
 }
-
-/* our programs section */
+/* latest resources */
 
 .prog-title h1{
     text-align: center;
@@ -102,42 +120,20 @@ h5{
      .about-row h2{
         font-size: 20px;
         text-align: center;
+        padding-top: 10px;
      }
 
-     .about-details img{
-        height: 60vh;
-        width: auto;
-        padding-left: 2%;
-     }
-     .about-details{
-        display: flex;
-      
-     }
-     .about-details p{
+     .about-row p{
      color: black;
      font-size: 18px;
      line-height: 25px;
-     text-align: left;
-     padding-left: 2%;
      }
      .about-row{
         column-count: 3;
-        margin-bottom: 40px;
-        margin: 30px;
+       
      }
      .about-colum{
-        background-color: #f3f3f3;
-        height: 100vh;
-        position: relative; 
-     }
-     .about-row button{
-        position: absolute; 
-        translate: -50%  -50%; 
-        bottom: 10%; left: 50%;
-        background-color: #ffff00;
-        width: 120px;
-        height: 40px;
-        
+        background-color: #f3f3f3; 
      }
      .about-row img{
         height: 45vh;
@@ -150,7 +146,7 @@ h5{
 }
 .hero-info p{
    text-align: center; 
-   font-size: px;
+font-family: ne;
 
 }
 .about-title h1{
@@ -164,79 +160,92 @@ h5{
 /* contact info section */
 
 .contact-row {
-    column-count: 2;
-    margin-bottom: 10%;
-    justify-content: center;
-    padding-left:2%;
-    padding-right: 2%;
+ column-count: 2;
+ margin: 30px;
+ gap: 30px;
+
+
 }
  .contact-col{
   background-color: #f3f3f3;
-    height: 100vh;
+  height: 150vh;
   }
 .contact-col li{
     list-style: none;
-    padding-left: 5%;
+    font-size: 20px;
+    line-height: 40px;
+    
    
 }
+form{
+    padding: 40px; 
+    font-size: 20px;
+}
+form button{
+    margin-top: 30px;
+     background-color: #ffff00; 
+     padding: 15px;
+      width: 30%;
+}
 .contact-col ul{
-    padding-top: 10%;
     line-height: 30px;
+    padding: 40px;
 }
 #name{
     width: 80vh;
-    height: 20px;
+    height: 35px;
 }
 #email{
     width: 80vh;
-    height: 20px;
+    height: 35px;
 }
 #no{
     width: 80vh;
-    height: 20px;
+    height: 35px;
 }
 #message{
     width: 80vh;
-    height: 50px;
+    height: 100px;
 }
 
 .contact-row h1{
 font-size: 20px;
 background-color:grey;
-padding-bottom: 5%;
+padding: 15px;
 color: #ffff00;
+text-align: center;
 }
-
+/* our programs sections */
+.program-row{
+    column-count: 3;
+    margin: 20px;
+}
+.program-column{
+background-color: #f3f3f3;
+height: 100vh;
+}
+.program-column h1{
+    text-align: center;
+}
 /* bible reading program section */
-.bible-colum img{
-height: 70vh;
+.row{
+  column-count: 2;
+    margin: 20px;
 }
-
-.bible-row p{
-    color: black;
-    font-size: 20px;
-    line-height: 35px;
-    padding-top: 1rem;
+.colum{
+    padding-left:30px ;
 }
-.bible-row{
-    display: flex; gap: 70px;
-    margin: 30px;
+#img{
+    height: 300px;
 }
-.bible-row h1{
-    font-size: 55px;
-    color: #465191;
+.row h1{
+    color: blue;
 }
-
-.bible-row button{
-    background-color: #ffff00; 
-     width:25%; height: 8vh;
-     margin-top: 1rem;
-
-}
-.test p{
-    color: black;
-    padding-top: 6%;
-    line-height: 30px;
+.row p{
+padding-top: 10px;
+line-height: 30px;
+word-spacing: 5px;
+font-size: 15px;
 }
 
 /* testimonial section */
@@ -282,26 +291,36 @@ padding-bottom: 3%;
     background-color: black;
     column-count: 4;
     height: 100vh;
-    padding: 20px;
-
+    padding-right:  180px;
 }
 .footer-col{
-height: 100%;
+width: 75vh;
+height: 75vh;
+padding-top: 50px;
+/* left: 50%; */
 }
-.footer-col ul li{
+.footer-col li {
    color: white;
-   font-size: 17px;
+   font-size: 15px;
    list-style: none;
  }
- .list{
+ .footer-col ul{
+    line-height: 40px;
+ }
+ .footer-col h2{
+color: white;
+font-size: 15px;
+padding-bottom: 15px;
 
  }
- .footer-col ul{
-   line-height: 50px;
- }
-.footer img{
-    height: 50px;
+.footer-row img{
+    height: 40px; 
+    margin-left: 50px;  
     
+}
+footer a:hover{
+    text-decoration: underline;
+    color: #ffff00;
 }
  /* copyright nav */
  
